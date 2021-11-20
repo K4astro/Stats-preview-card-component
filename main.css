@@ -1,0 +1,172 @@
+/* start var */
+/* end var */
+
+/* start global rules */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 15px;
+}
+
+/* end golobal rules */
+
+main {
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    overflow: hidden;
+    max-height: 475px;
+}
+
+@media screen and (max-width: 375px) {
+    main {
+        height: 120vh;
+    }
+    .container {
+        width: 88%;
+        /* height: 80%; */
+        display: flex;
+        max-height: fit-content;
+        flex-direction: column;
+    }
+}
+
+/* start content */
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 60px 70px 70px;
+    text-align: center;
+}
+
+/* end content */
+
+/* start text */
+.text {
+    line-height: 1.6;
+}
+
+.text h1 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.text h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+.text p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Inter";
+}
+
+@media screen and (max-width: 375px) {
+    .content {
+        padding: 40px 30px 10px;
+        justify-content: flex-start;
+    }
+
+    .text h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+}
+/* end text */
+
+/* start states */
+.states {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    text-transform: uppercase;
+    line-height: 1.6;
+}
+
+.states h2 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.states p {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: "Lexend Deca";
+    font-size: 13px;
+}
+
+@media screen and (max-width: 375px) {
+    .states {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .states div {
+        margin-bottom: 30px;
+    }
+}
+
+/* end states */
+
+/* start imag */
+
+.side-img {
+    width: 50%;
+    margin-left: 80px;
+    position: relative;
+}
+
+.side-img img {
+    min-width: 100%;
+}
+
+.side-img::after {
+    content: "";
+    background-color: rgba(98, 4, 156, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 375px) {
+    .side-img {
+        order: -1;
+        width: 100%;
+        height: 272.51px;
+        margin-left: 0;
+    }
+
+    .side-img img {
+        width: 100%;
+    }
+}
+
+/* end image */
