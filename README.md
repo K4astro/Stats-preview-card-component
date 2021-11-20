@@ -12,7 +12,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ### Links
 
 -   Solution URL: [Solution](https://www.frontendmentor.io/solutions/frontend-mentor-order-summary-card-MQPwFu-RN7)
--   Live Site URL: [Frontend Mentor Order summary card](https://k4astro.github.io/Frontend-Mentor-Order-summary-card/)
+-   Live Site URL: [Stats preview card component](https://k4astro.github.io/Stats-preview-card-component/)
 
 ### Built with
 
