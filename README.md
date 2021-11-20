@@ -11,7 +11,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Links
 
--   Solution URL: [Solution](https://www.frontendmentor.io/solutions/frontend-mentor-order-summary-card-MQPwFu-RN7)
+-   Solution URL: [Solution](https://www.frontendmentor.io/solutions/stats-preview-card-component-ULvb8us6v)
 -   Live Site URL: [Stats preview card component](https://k4astro.github.io/Stats-preview-card-component/)
 
 ### Built with
